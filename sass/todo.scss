@@ -103,15 +103,17 @@ a {
         text-decoration: none;
     }
 }
-img.deselect-all {
-    opacity: 0.5;
-}
+
 #selectAll, #deselectAll {
     cursor: pointer;
 }
 .deselect-all {
     margin-left: 10px;   
 }
+img.active {
+    opacity: 1;
+}
+
 .filter-buttons-group {
     display: inline;
     font-size: 2rem;
@@ -166,6 +168,7 @@ footer {
     }
     .select-button {
         font-size: 2rem;
+        opacity: 0.5;
     }
     #task {
         margin: auto;
